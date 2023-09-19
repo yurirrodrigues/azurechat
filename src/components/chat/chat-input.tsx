@@ -64,7 +64,7 @@ const ChatInput: FC<Props> = (props) => {
       <div className="container mx-auto max-w-4xl relative py-2 flex gap-2 items-end">
         <Textarea
           rows={rows}
-          placeholder="Send a message"
+          placeholder="Envie sua mensagem"
           className="min-h-fit bg-background shadow-sm resize-none py-4"
           value={props.value}
           onKeyUp={onKeyUp}
