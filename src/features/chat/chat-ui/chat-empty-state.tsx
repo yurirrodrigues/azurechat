@@ -39,18 +39,18 @@ export const EmptyState: FC<Prop> = (props) => {
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
         <p className="">
-          Start by just typing your message in the box below. You can also
-          personalise the chat by making changes to the settings on the right.
+          Comece a usar o chat escrevendo na caixa de texto abaixo. Você também pode
+          personalizar o chat antes de começar nas opção ao lado.
         </p>
       </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
-          Personalise
+          Personalize
         </Typography>
 
         <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
-            Choose a conversation style
+            Escolha um estilo de conversa
           </p>
           <ChatStyleSelector
             conversationStyle={props.conversationStyle}
@@ -60,7 +60,7 @@ export const EmptyState: FC<Prop> = (props) => {
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-sm text-muted-foreground">
-            How would you like to chat?
+            Escolha o seu tipo de chat
           </p>
           <ChatTypeSelector
             chatType={props.chatType}
