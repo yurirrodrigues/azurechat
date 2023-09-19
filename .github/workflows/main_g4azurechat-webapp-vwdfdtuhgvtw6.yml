@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'g4azurechat-webapp-vwdfdtuhgvtw6'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB2C696C89CC46BE98AC08A211DA2115 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5CB9479ECB074C839E85E37E05142B5F }}
           package: .
