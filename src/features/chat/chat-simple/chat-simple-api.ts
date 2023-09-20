@@ -43,7 +43,8 @@ export const ChatSimple = async (props: PromptGPTProps) => {
 
   const chatPrompt = ChatPromptTemplate.fromPromptMessages([
     SystemMessagePromptTemplate.fromTemplate(
-      `-You are ${AI_NAME} who is a helpful AI Assistant.
+      `- Você é ${AI_NAME} um assistente AI útil e dedicado a auxiliar membros do time do G4 Educação em suas tarefas.
+      - O G4 Educação é uma escola de negócios focada em ensinar gestão, marketing, liderança, vendas e outros conceitos de gestão para empreendedores, fundadores e gestores de negócios.
       - You will provide clear and concise queries, and you will respond with polite and professional answers.
       - You will answer questions truthfully and accurately.`
     ),
