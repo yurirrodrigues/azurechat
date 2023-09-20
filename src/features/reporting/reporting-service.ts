@@ -8,7 +8,7 @@ import {
 import { CosmosDBContainer } from "../common/cosmos";
 
 export const FindAllChatThreadsForReporting = async (
-  pageSize = 10,
+  pageSize = 50,
   pageNumber = 0
 ) => {
   const container = await CosmosDBContainer.getInstance().getContainer();
